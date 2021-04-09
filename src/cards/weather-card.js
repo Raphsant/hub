@@ -18,7 +18,7 @@ function WeatherCard() {
     };
     getWeather();
     console.log("weather component mounted.");
-  }, []);
+  }, [url]);
 
   let weatherContent;
 
