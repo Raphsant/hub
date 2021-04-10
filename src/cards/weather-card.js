@@ -4,7 +4,7 @@ function WeatherCard() {
   //Variables
   const [weatherData, setWeatherData] = useState(null);
   const apiKey = "f0427030a3eaff2558613297e9184af8";
-  const url = `http://api.openweathermap.org/data/2.5/weather?q=chicago&units=metric&appid=${apiKey}`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=chicago&units=metric&appid=${apiKey}`;
 
   //Functions
   // TODO: ADD THIS TO A REACT CUSTOM HOOK, THIS COMPONENT SHOULD ONLY HANDLE THE RENDER.
