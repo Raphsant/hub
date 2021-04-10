@@ -2,7 +2,7 @@ import React from "react";
 import TimeCard from "../cards/time-card";
 import WeatherCard from "../cards/weather-card";
 import BookmarkContainer from "./bookmark-container";
-import "./css/bookmark-container.css";
+import "./css/container.css";
 
 function Container() {
   return (

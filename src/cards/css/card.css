@@ -1,4 +1,12 @@
 button {
   width: 100px;
   height: 60px;
+  background-color: rgba(0, 0, 0, 0.55);
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 15px;
 }
