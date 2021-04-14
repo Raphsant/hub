@@ -1,12 +1,13 @@
 .card {
   width: fit-content;
-  height: fit-content;
-  padding: auto;
-  display: block;
-  margin-left: auto;
+  /* height: fit-content;   */
+  /* padding: auto; */
+  /* display: block; */
+  margin-left: auto; /* this line margin-left and margin-right is nasty better is margin: 0 auto*/
   margin-right: auto;
-  align-items: center;
+  /* align-items: center; */
   text-align: center;
-  padding-bottom: auto;
-  border-radius: 5px;
+  /* padding-bottom: auto; */
+  /* border-radius: 5px; */
+  border: 1px solid red;
 }
